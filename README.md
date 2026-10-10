@@ -105,3 +105,72 @@ Processing triggers for mandoc (1.14.6-7) ...
 ~ $ ollama run deepseek-r1:1.5b
 Error: could not connect to ollama server, run 'ollama serve' to start it
 ~ $
+# Omni Nano Command Center v1.0.0
+
+Project status: Concept prototype / engineering concept review
+
+## Overview
+This project is a speculative multi-layer command and control system focused on AI-driven operational coordination, power management, cryogenic system control, and future quantum-ready infrastructure concepts.
+
+## Mission
+Build a conceptual command platform that integrates:
+- compute and AI core
+- power bus and backup systems
+- thermal and cryogenic management
+- safety interlocks and emergency cutoffs
+- network synchronization and telemetry
+
+## Core architecture
+- Site A: Main compute and command core
+- Site B: Renewable power generation and backup grid
+- Central control: telemetry, power routing, load balancing, and safety logic
+- Communication: fiber + secure control links
+- Cooling: cryogenic thermal management with backup systems
+
+## Power model
+- Main bus: 400VDC architecture
+- Backup: UPS and diesel generator support
+- Renewable layer: solar + thermal + grid hybrid model
+- Safety: emergency shutdown and fail-safe interlocks
+
+## Cooling and thermal model
+- Cryogenic environment for sensitive compute hardware
+- He-3 / He-4 style thermal management concept
+- Thermal monitoring and fail-safe reaction logic
+
+## Safety model
+- SCRAM shutdown
+- argon suppression concept for fire events
+- thermal and vacuum interlocks
+- human-safe wireless power limits
+- emergency isolation and monitoring
+
+## Roadmap
+Phase 1: architecture and concept validation
+Phase 2: subsystem mockup and bench testing
+Phase 3: power + cooling loop integration
+Phase 4: telemetry and control system validation
+Phase 5: concept expansion and deployment planning
+
+## Current position
+This is a design study and concept architecture package. It is intended for technical discussion, concept review, and future development planning, not as a claim of proven real-world deployment.
+
+## Repo structure
+- README.md
+- docs/visual-architecture.md
+- docs/test-protocols.md
+- docs/milestones.md
+- docs/glossary.md
+- docs/safety-assumptions.md
+
+## Next step
+Open discussion for:
+- architecture review
+- safety validation
+- power system feasibility
+- cooling design feedback
+- roadmap alignment
+
+## Links
+- Repository: [Main project repo]
+- Discussion: [Open issue / discussions]
